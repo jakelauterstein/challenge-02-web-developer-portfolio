@@ -1,0 +1,108 @@
+* {
+    font-family: sans-serif;
+    padding: 0;
+    margin:0 ;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+header { 
+    background-color: #31343D;
+    background-size: 20px 20px;
+    height: 80px;
+}
+
+header h1 {
+    display: inline-block;
+    padding: 2px 20px;
+    margin-top: 19px;
+}
+
+header a {
+    color:#85e7e4;
+    text-decoration: none;
+}
+
+header nav {
+    margin-top: 20px 20px;
+    float: right;
+    
+    font-size: 20px;
+}
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 4px 13px;
+    border-bottom: solid 3.5px #85e7e4;;
+    margin: 15px;
+    position: relative;
+    top: 5px
+}
+.hero {
+    position:relative;
+    float: left;
+    height: 150px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/web-dev-banner-2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+h2{
+    background-color: RGBA(133,231,228,.9);
+    color: #31343D;
+    float: right;
+    position:absolute;
+    bottom: 8px;
+    right: 20px;
+    padding: 4px;
+}
+
+h3{
+    color: #31343D;
+    font-size: 30px;
+    width: 100px;
+    padding: 20px;
+    margin: 50px;
+    border-right: #31343D solid 3px ;
+    text-align: right;
+    display:inline-block;
+}
+
+.intro {
+    position:relative
+}
+
+.bio{
+    width: 555px;
+    float: right;
+    position: absolute;
+    right: 400px;
+    bottom: 56px;
+}
+.headshot {
+    width: 150px;
+    position: relative;
+    left: 645px;
+    top: 44px;
+}
+
+.float-left{
+    float:left;
+}
+
+.float-right{
+    float:right;
+}
+
+
+
+    /* background-color: #031338;
+    padding: 10px;
+    color: rgb(28, 59, 62)*/
